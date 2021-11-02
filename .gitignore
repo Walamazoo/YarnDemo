@@ -60,4 +60,4 @@ crashlytics-build.properties
 
 YarnDemo/Library/
 YarnDemo/Temp/
-*.log
+YarnDemo\Logs

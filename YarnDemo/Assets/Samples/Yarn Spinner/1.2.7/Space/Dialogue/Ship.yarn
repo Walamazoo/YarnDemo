@@ -31,4 +31,11 @@ position: 721,130
     Player: Uh. #line:ship7
     <<setsprite ShipFace neutral>>
 <<endif>>
+
+Ship: Anything else I can help with?
+-> No, thanks.
+    Ship: Aw, ok!
+-> I'm good.
+    Ship: Let me know!
+Ship: Bye!
 ===

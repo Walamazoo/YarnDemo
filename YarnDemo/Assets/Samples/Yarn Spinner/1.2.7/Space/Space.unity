@@ -1310,8 +1310,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58, y: -78}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 58, y: -86}
+  m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481939801
 MonoBehaviour:
@@ -2110,6 +2110,22 @@ PrefabInstance:
       propertyPath: debugTextView
       value: 
       objectReference: {fileID: 1481939801}
+    - target: {fileID: 5935829475398715335, guid: 4ec3df5875e7347beb6176b545b8fb39, type: 3}
+      propertyPath: defaultVariables.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935829475398715335, guid: 4ec3df5875e7347beb6176b545b8fb39, type: 3}
+      propertyPath: defaultVariables.Array.data[0].name
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935829475398715335, guid: 4ec3df5875e7347beb6176b545b8fb39, type: 3}
+      propertyPath: defaultVariables.Array.data[0].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935829475398715335, guid: 4ec3df5875e7347beb6176b545b8fb39, type: 3}
+      propertyPath: defaultVariables.Array.data[0].value
+      value: true
+      objectReference: {fileID: 0}
     - target: {fileID: 5935829475522760372, guid: 4ec3df5875e7347beb6176b545b8fb39, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
